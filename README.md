@@ -16,3 +16,27 @@ This project leverages natural language processing (NLP) techniques and Amazon's
 3. **Evaluation:**
    * Analyzed the extracted topics to align them with potential consumer trends.
    * Generated word clouds with popular terms for each topic
+
+## Results
+* Identified major themes in the healthy snacks category, including keywords related to low-carb snacks, sugar-free options, and protein-rich products.
+* Discovered significant trends in flavor preferences, such as "salty," "chocolate," "fruity," and "nut blends."
+* Provided insights for the R&D team to focus on specific flavors and dietary preferences.
+
+## Visualizations
+These are some sample word clouds our project produced:
+![wordcloud 1](https://github.com/user-attachments/assets/399f3b34-4eb5-41ed-8b67-406a9dd87705)
+---
+![wordcloud 2](https://github.com/user-attachments/assets/5a516916-58d8-4937-a0a5-8872788db0b2)
+
+## Next Steps
+* Extend topic modeling to include additional categories from the Amazon Reviews dataset, including 'Health and Personal Care' and 'Home and Kitchen.'
+* Further develop topic detection algorithms to understand trends and topics for high and low-rating reviews and products.
+
+## Individual Contributions
+Each team member individually processed the data using different keywords.
+* <ins>Rosemarie:</ins> snacks, low-carb
+* <ins>Tamia:</ins> protein, vegetable
+* <ins>Nasrin:</ins> fruits, vitamins
+* <ins>Michelle:</ins> collagen, sugar-free
+
+## How to Run
