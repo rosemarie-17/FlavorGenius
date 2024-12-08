@@ -43,8 +43,8 @@ Each team member individually processed the data using different keywords.
 1. **Clone the Repository:**
    Clone this repository to your local machine:
    ```
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/rosemarie-17/FlavorGenius
+   cd flavorgenius
    ```
 2. **Install Dependencies:**
    Make sure you have Python 3.8 or later installed. Install the required libraries:
