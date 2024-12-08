@@ -40,3 +40,32 @@ Each team member individually processed the data using different keywords.
 * <ins>Michelle:</ins> collagen, sugar-free
 
 ## How to Run
+1. **Clone the Repository:**
+   Clone this repository to your local machine:
+   ```
+   git clone <repository_url>
+   cd <repository_directory>
+   ```
+2. **Install Dependencies:**
+   Make sure you have Python 3.8 or later installed. Install the required libraries:
+   ```
+   pip install -r requirements.txt
+   ```
+3. **Download the Dataset:**
+   The dataset used for this project can be accessed from [Amazon Reviews Dataset 2023](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023)
+   * To install user reviews:
+     Run the following code to download the user reviews:
+     ```
+     from datasets import load_dataset
+     
+     dataset = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_review_Grocery_and_Gourmet_Food", trust_remote_code=True)
+     print(dataset["full"][0])
+     ```
+   * To install item metadata:
+     Run the following code to download the user reviews:
+     ```
+     from datasets import load_dataset
+     
+     dataset = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_meta_Grocery_and_Gourmet_Food", trust_remote_code=True)
+     print(dataset["full"][0])
+     ```
